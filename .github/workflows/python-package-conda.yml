@@ -22,6 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         #conda env update --file environment.yml --name base
+        cd starter
         pip install -r requirements.txt
     - name: Lint with flake8
       run: |
